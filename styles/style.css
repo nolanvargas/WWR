@@ -56,7 +56,7 @@ nav a:hover {
 }
 
 #background {
-  background-color: #accdd7;
+  background-color: #eeebd3;
 }
 
 .msg {
@@ -64,7 +64,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #accdd7;
+  background-color: #eeebd3;
   color: #122b2b;
 }
 
@@ -111,4 +111,13 @@ footer a:hover {
 
 #hero-img {
   width: 100%;
+}
+
+nav {
+  background-color: #eeebd3;
+  text-align: right;
+}
+
+#logo_link {
+  margin-right: 100%;
 }
