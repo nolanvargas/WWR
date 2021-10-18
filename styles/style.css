@@ -1,3 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@100&family=Ubuntu&display=swap");
+
+a {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -15,6 +35,8 @@ nav a {
 
 #hero-msg h4 {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .button-box {
@@ -70,6 +92,10 @@ footer {
 
 .home-title {
   color: #122b2b;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
 }
 
 h4 {
@@ -86,6 +112,7 @@ h4 {
 
 footer h3 {
   color: #122b2b;
+  font-size: small;
 }
 
 footer h3 a:hover {
