@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 
 #content {
@@ -27,6 +28,7 @@ nav a {
   text-align: center;
   color: black;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msg h1 {
@@ -53,6 +55,8 @@ main section {
 
 body {
   background-color: #accdd7;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -69,6 +73,10 @@ nav a:hover {
   background-color: #accdd7;
   color: #122b2b;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 .book:hover,
@@ -83,11 +91,14 @@ nav a:hover {
 
 .msg {
   background-color: #accdd7;
+  padding: 35px;
 }
 
 footer {
   background-color: #eeebd3;
+  padding: 15px 50px;
   color: #122b2b;
+  margin-top: 200px;
 }
 
 .home-title {
@@ -96,6 +107,7 @@ footer {
   font-weight: 100;
   margin: 0;
   padding: 0;
+  margin-top: 10px;
 }
 
 h4 {
@@ -108,6 +120,7 @@ h4 {
 
 .msg p {
   color: #122b2b;
+  padding-bottom: 15px;
 }
 
 footer h3 {
@@ -128,12 +141,17 @@ footer a:hover {
   color: #122b2b;
 }
 
+footer .social img {
+  padding-top: 15px;
+}
+
 .logo {
   width: 80px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
@@ -147,4 +165,19 @@ nav {
 
 #logo_link {
   margin-right: 100%;
+  padding-top: 5px;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid black;
+}
+
+main section img {
+  box-sizing: border-box;
 }
