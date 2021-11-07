@@ -24,6 +24,11 @@ h2 {
   margin: 0 auto;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 350px auto;
+}
+
 nav a {
   text-align: center;
   color: black;
@@ -64,7 +69,7 @@ header {
 }
 
 nav a:hover {
-  background-color: aqua;
+  background-color: white;
   color: #122b2b;
 }
 
