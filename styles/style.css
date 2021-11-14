@@ -29,6 +29,41 @@ h2 {
   grid-template-columns: repeat(10, 10%);
 }
 
+.home-grid2 {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: 60px 270px 200px 600px;
+}
+
+
+#middleCard {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: block;
+  grid-column: 2/10;
+  grid-row: 4/5;
+  background-image: url("https://wildlifezones.com/wp-content/uploads/2019/09/Beautiful-River-in-India.jpg");
+  background-size: cover;
+}
+
+#middleCard p {
+  display: block;
+  text-align: center;
+  background: rgba(0,0,0,0.3);
+  margin-top: 110px;
+  font-size: 20px;
+  color: white;
+  padding: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.river {
+  width: 100%;
+  grid-column: 5/10;
+  grid-row: 1/2;
+  box-shadow: 5px 5px 10px #6f7364;
+}
 .card-img, .mountains {
   width: 100%;
 }
@@ -125,6 +160,14 @@ nav a:hover {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.msg2 {
+  background-color: #d0e3f5;
+    padding: 35px;
+    grid-column: 2/6;
+    grid-row: 2/3;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
