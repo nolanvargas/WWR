@@ -30,9 +30,10 @@ h2 {
 }
 
 .home-grid2 {
+  padding-top: 100px;
   display: grid;
   grid-template-columns: repeat(10, 10%);
-  grid-template-rows: 60px 270px 200px 600px;
+  grid-template-rows: 100px 270px 120px 600px;
 }
 
 
@@ -156,7 +157,7 @@ nav a:hover {
 }
 
 .msg {
-  background-color: #d0e3f5;
+  background-color: #EEEBD3;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
@@ -164,7 +165,7 @@ nav a:hover {
 }
 
 .msg2 {
-  background-color: #d0e3f5;
+  background-color: #EEEBD3;
     padding: 35px;
     grid-column: 2/6;
     grid-row: 2/3;
