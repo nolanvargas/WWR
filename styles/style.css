@@ -347,3 +347,45 @@ main section img {
       margin-top: 25px;
   }
 }
+
+.contactUsBody {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 35px 35px 300px 100px;
+}
+
+#nameTitle {
+  grid-area: 1/1/1/1;
+  justify-self: right;
+  align-self: center;
+}
+
+#emailTitle {
+  grid-area: 2/1/2/1;
+  justify-self: right;
+  align-self: center;
+}
+
+#emailText {
+  margin: 3px;
+  grid-area: 2/2/2/2;
+}
+
+#nameText {
+  margin: 3px;
+}
+#bodyText {
+  margin-top: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  grid-area: 3/2/3/2;
+}
+
+#send {
+  grid-area: 4/2/4/2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
